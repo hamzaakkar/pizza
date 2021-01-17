@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+    
+    position: relative;
+    width: 100;
+    min-height: 100vh;
+    display: flex;
+justify-content: space-between;
+background: url("img/images.jpg") no-repeat center center;
+background-size: cover;
+padding: 50px;
+}
+header{
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    padding: 50px 100px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header .logo{
+    max-width: 80px;
+
+}
+header ul{
+    display: flex;
+}
+header ul li a{
+    color:salmon;
+    font-weight: bold;
+    font-size: 50px;
+    margin-left: 25px;
+    text-decoration: none;
+}
+.content{
+    position:  relative;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.content .text{
+    position: relative;
+    max-width: 600px;
+    max-height: 500px;
+  
+}
+.content .text h2{
+    
+    color:white;
+    font-size: 10px;
+    line-height: 1.5rem;
+    font-weight: bold;
+    letter-spacing: 5px;
+}
+.content .text h2:hover{
+    font-size: 60px;
+    box-shadow: 50px 30px 20 px red;
+    padding:10px;
+}
+.content .text h2 span{
+    color:orange;
+    font-size: 80px;
+}
+.content .text p{
+
+    margin:  50px 50px 50px 50px;
+    color:white;
+    font-size: 20px;
+    text-align: justify;
+
+}
+.content .text a{
+    margin-top: 20px;
+    padding: 10px 20px;
+    color:brown;
+    background:white;
+    border-radius: 25px;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-block;
+    letter-spacing: 2px;
+    transition: 0.5s ease;
+}
+.content .text a:hover{
+    color: white;
+    background: violet;
+}
+.content .imgbox img{
+    max-width: 600px;
+    max-height: 500px;
+
+}
+.intc{
+    position: absolute;
+    left: 80%;
+    bottom: 0%;
+    transform: translateY(-0%);
+}
+.intc li{
+    list-style: none;
+    margin:0 5px;
+    cursor: pointer;
+}
+.intc li:hover{
+    transform: translateX(-20px);
+}
+.intc li img{
+    max-width: 80px;
+}
